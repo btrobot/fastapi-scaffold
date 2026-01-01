@@ -147,7 +147,7 @@ rm -rf test_env test-project
 
 1. 登录 https://test.pypi.org/
 2. Account settings → API tokens → Add API token
-3. Token name: `fastapi-scaffold-upload`
+3. Token name: `fastapi-project-scaffold-upload`
 4. Scope: `Entire account` (或指定项目)
 5. 复制 Token（只显示一次）
 
@@ -182,7 +182,7 @@ twine upload --repository testpypi dist/*
 
 ```bash
 # 从 TestPyPI 安装
-pip install --index-url https://test.pypi.org/simple/ fastapi-scaffold
+pip install --index-url https://test.pypi.org/simple/ fastapi-project-scaffold
 
 # 测试
 fastapi-scaffold --version
@@ -225,11 +225,11 @@ twine upload dist/*
 
 ### 5. 验证发布
 
-访问: https://pypi.org/project/fastapi-scaffold/
+访问: https://pypi.org/project/fastapi-project-scaffold/
 
 ```bash
 # 安装验证
-pip install fastapi-scaffold
+pip install fastapi-project-scaffold
 
 # 测试
 fastapi-scaffold --version
@@ -282,8 +282,8 @@ pip install fastapi-scaffold
 
 ### 🔗 Links
 
-- PyPI: https://pypi.org/project/fastapi-scaffold/
-- Documentation: https://github.com/yourusername/fastapi-scaffold
+- PyPI: https://pypi.org/project/fastapi-project-scaffold/
+- Documentation: https://github.com/btrobot/fastapi-scaffold
 ```
 
 6. Attach binaries: 上传 `dist/` 中的文件

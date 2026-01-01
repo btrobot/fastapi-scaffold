@@ -602,8 +602,8 @@ TESTING.md (400 行)
 
 ## 📞 联系方式
 
-- **GitHub**: https://github.com/yourusername/fastapi-scaffold
-- **Issues**: https://github.com/yourusername/fastapi-scaffold/issues
+- **GitHub**: https://github.com/btrobot/fastapi-scaffold
+- **Issues**: https://github.com/btrobot/fastapi-scaffold/issues
 - **Email**: support@example.com
 
 ---

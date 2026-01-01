@@ -24,7 +24,7 @@
 ## 📦 安装
 
 ```bash
-pip install fastapi-scaffold
+pip install fastapi-project-scaffold
 ```
 
 ---
@@ -327,8 +327,8 @@ print(f"创建文章: {article['id']}")
 
 ## 📞 联系方式
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/fastapi-scaffold/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/fastapi-scaffold/discussions)
+- **Issues**: [GitHub Issues](https://github.com/btrobot/fastapi-scaffold/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/btrobot/fastapi-scaffold/discussions)
 - **Email**: support@example.com
 
 ---

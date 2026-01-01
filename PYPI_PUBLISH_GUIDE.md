@@ -54,7 +54,7 @@
 2. 进入 **Account settings** → **API tokens**
 3. 点击 **Add API token**
 4. 配置：
-   - Token name: `fastapi-scaffold-upload`
+   - Token name: `fastapi-project-scaffold-upload`
    - Scope: `Entire account`（或创建项目后选择项目）
 5. **复制 Token**（只显示一次，格式：`pypi-AgEIcHl...`）
 6. 保存到安全位置
@@ -112,13 +112,13 @@ twine upload --repository testpypi dist/*
 **预期输出**:
 ```
 Uploading distributions to https://test.pypi.org/legacy/
-Uploading fastapi_scaffold-1.0.0-py3-none-any.whl
+Uploading fastapi_project_scaffold-1.0.0-py3-none-any.whl
 100% ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
-Uploading fastapi_scaffold-1.0.0.tar.gz
+Uploading fastapi_project_scaffold-1.0.0.tar.gz
 100% ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
 
 View at:
-https://test.pypi.org/project/fastapi-scaffold/1.0.0/
+https://test.pypi.org/project/fastapi-project-scaffold/1.0.0/
 ```
 
 ---
@@ -132,7 +132,7 @@ python -m venv test_pypi_install
 test_pypi_install\Scripts\activate
 
 # 2. 从 TestPyPI 安装
-pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ fastapi-scaffold
+pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ fastapi-project-scaffold
 
 # 注意：--extra-index-url 是为了安装依赖（click, jinja2）
 
@@ -203,13 +203,13 @@ twine upload dist/*
 **预期输出**:
 ```
 Uploading distributions to https://upload.pypi.org/legacy/
-Uploading fastapi_scaffold-1.0.0-py3-none-any.whl
+Uploading fastapi_project_scaffold-1.0.0-py3-none-any.whl
 100% ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
-Uploading fastapi_scaffold-1.0.0.tar.gz
+Uploading fastapi_project_scaffold-1.0.0.tar.gz
 100% ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
 
 View at:
-https://pypi.org/project/fastapi-scaffold/1.0.0/
+https://pypi.org/project/fastapi-project-scaffold/1.0.0/
 ```
 
 ---
@@ -218,10 +218,10 @@ https://pypi.org/project/fastapi-scaffold/1.0.0/
 
 ```bash
 # 1. 访问项目页面
-# https://pypi.org/project/fastapi-scaffold/
+# https://pypi.org/project/fastapi-project-scaffold/
 
 # 2. 测试安装
-pip install fastapi-scaffold
+pip install fastapi-project-scaffold
 
 # 3. 测试使用
 fastapi-scaffold --version
@@ -276,7 +276,7 @@ git push origin v1.0.0
 ## 📦 Installation
 
 ```bash
-pip install fastapi-scaffold
+pip install fastapi-project-scaffold
 ```
 
 ## 🚀 Quick Start
@@ -303,10 +303,10 @@ uvicorn app.main:app --reload
 
 ## 🔗 Links
 
-- **PyPI**: https://pypi.org/project/fastapi-scaffold/
-- **Documentation**: [README.md](https://github.com/yourusername/mnvr/blob/main/apps/backend/fastapi-scaffold/README.md)
-- **Quick Start**: [QUICK_START.md](https://github.com/yourusername/mnvr/blob/main/apps/backend/fastapi-scaffold/QUICK_START.md)
-- **Tutorial**: [TUTORIAL.md](https://github.com/yourusername/mnvr/blob/main/apps/backend/fastapi-scaffold/TUTORIAL.md)
+- **PyPI**: https://pypi.org/project/fastapi-project-scaffold/
+- **Documentation**: [README.md](https://github.com/btrobot/fastapi-scaffold/blob/main/README.md)
+- **Quick Start**: [QUICK_START.md](https://github.com/btrobot/fastapi-scaffold/blob/main/QUICK_START.md)
+- **Tutorial**: [TUTORIAL.md](https://github.com/btrobot/fastapi-scaffold/blob/main/TUTORIAL.md)
 
 ## 🙏 Thanks
 
@@ -360,7 +360,7 @@ Thanks to all the amazing open-source projects that made this possible!
 
 ## 🎯 发布后检查清单
 
-- [ ] PyPI 页面正常：https://pypi.org/project/fastapi-scaffold/
+- [ ] PyPI 页面正常：https://pypi.org/project/fastapi-project-scaffold/
 - [ ] 可以通过 pip 安装
 - [ ] 所有命令正常工作
 - [ ] GitHub Release 创建成功
@@ -399,7 +399,7 @@ Thanks to all the amazing open-source projects that made this possible!
 ```bash
 pip install --index-url https://test.pypi.org/simple/ \
   --extra-index-url https://pypi.org/simple/ \
-  fastapi-scaffold
+  fastapi-project-scaffold
 ```
 
 ---
@@ -417,7 +417,7 @@ pip install --index-url https://test.pypi.org/simple/ \
 
 如果以上步骤全部完成，那么 **FastAPI Scaffold 1.0.0 已成功发布到 PyPI！** 🎉
 
-全世界的开发者现在都可以通过 `pip install fastapi-scaffold` 使用你的工具了！
+全世界的开发者现在都可以通过 `pip install fastapi-project-scaffold` 使用你的工具了！
 
 ---
 
