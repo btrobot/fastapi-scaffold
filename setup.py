@@ -21,11 +21,11 @@ setup(
     description="Enterprise-grade FastAPI project scaffold with CLI and AI-powered code generation",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/fastapi-project-scaffold",
+    url="https://github.com/btrobot/fastapi-scaffold",
     project_urls={
-        "Bug Tracker": "https://github.com/yourusername/fastapi-project-scaffold/issues",
-        "Documentation": "https://github.com/yourusername/fastapi-project-scaffold/blob/main/README.md",
-        "Source Code": "https://github.com/yourusername/fastapi-project-scaffold",
+        "Bug Tracker": "https://github.com/btrobot/fastapi-scaffold/issues",
+        "Documentation": "https://github.com/btrobot/fastapi-scaffold/blob/main/README.md",
+        "Source Code": "https://github.com/btrobot/fastapi-scaffold",
     },
     packages=find_packages(exclude=["tests", "tests.*", "examples", "examples.*"]),
     classifiers=[

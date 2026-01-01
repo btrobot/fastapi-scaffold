@@ -46,10 +46,10 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/fastapi-project-scaffold"
-Documentation = "https://github.com/yourusername/fastapi-project-scaffold/blob/main/README.md"
-Repository = "https://github.com/yourusername/fastapi-project-scaffold"
-"Bug Tracker" = "https://github.com/yourusername/fastapi-project-scaffold/issues"
+Homepage = "https://github.com/btrobot/fastapi-scaffold"
+Documentation = "https://github.com/btrobot/fastapi-scaffold/blob/main/README.md"
+Repository = "https://github.com/btrobot/fastapi-scaffold"
+"Bug Tracker" = "https://github.com/btrobot/fastapi-scaffold/issues"
 
 [project.scripts]
 fastapi-scaffold = "fastapi_scaffold.cli.main:cli"
